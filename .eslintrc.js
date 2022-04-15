@@ -8,6 +8,7 @@ module.exports = {
   },
   extends: ['prettier', 'eslint:recommended', 'plugin:prettier/recommended'],
   rules: {
+    'no-unused-vars': 'off', // 사용하지 않는 변수 체크 : off - 사용안함
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
