@@ -3,3 +3,15 @@ GET https://example.com/comments/1 HTTP/1.1
 ###
 
 GET https://jsonplaceholder.typicode.com/todos
+Connection: keep-alive
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "gg",
+  "body": "11",
+  "userId": 11
+}
